@@ -1,0 +1,50 @@
+[
+  {
+    "strategy": "zero_shot",
+    "n_samples": 100,
+    "accuracy": 0.87,
+    "precision": 0.8936,
+    "recall": 0.84,
+    "f1": 0.866,
+    "roc_auc": 0.5,
+    "avg_inference_ms": 1695.66,
+    "total_cost_usd": 0.0901,
+    "cost_per_sample": 0.000901
+  },
+  {
+    "strategy": "few_shot",
+    "n_samples": 100,
+    "accuracy": 0.87,
+    "precision": 0.9111,
+    "recall": 0.82,
+    "f1": 0.8632,
+    "roc_auc": 0.5,
+    "avg_inference_ms": 2496.69,
+    "total_cost_usd": 0.1698,
+    "cost_per_sample": 0.001698
+  },
+  {
+    "strategy": "chain_of_thought",
+    "n_samples": 100,
+    "accuracy": 0.5,
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1": 0.6667,
+    "roc_auc": 0.5,
+    "avg_inference_ms": 5572.75,
+    "total_cost_usd": 0.5164,
+    "cost_per_sample": 0.005164
+  },
+  {
+    "strategy": "structured",
+    "n_samples": 100,
+    "accuracy": 0.88,
+    "precision": 0.88,
+    "recall": 0.88,
+    "f1": 0.88,
+    "roc_auc": 0.9566,
+    "avg_inference_ms": 2430.35,
+    "total_cost_usd": 0.2055,
+    "cost_per_sample": 0.002055
+  }
+]

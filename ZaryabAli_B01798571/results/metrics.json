@@ -1,0 +1,31 @@
+{
+  "total_samples": 5,
+  "strategy": "structured",
+  "model": "claude-sonnet-4-6",
+  "accuracy": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1_score": 1.0,
+  "roc_auc": 1.0,
+  "avg_inference_ms": 2484.69,
+  "total_time_s": 17.45,
+  "TP": 1,
+  "TN": 4,
+  "FP": 0,
+  "FN": 0,
+  "per_source": {
+    "HaluEval": {
+      "TP": 1,
+      "TN": 4,
+      "FP": 0,
+      "FN": 0
+    }
+  },
+  "api_usage": {
+    "total_calls": 5,
+    "total_prompt_tokens": 1475,
+    "total_output_tokens": 366,
+    "total_cost_usd": 0.0099,
+    "avg_cost_per_call": 0.001983
+  }
+}
